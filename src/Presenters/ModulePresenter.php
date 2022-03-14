@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Pagebanners\Presenters;
+namespace TypiCMS\Modules\Pagebanners\Presenters;
 
 use TypiCMS\Modules\Core\Presenters\Presenter;
 

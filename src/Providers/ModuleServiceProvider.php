@@ -1,14 +1,14 @@
 <?php
 
-namespace Tonghe\Modules\Pagebanners\Providers;
+namespace TypiCMS\Modules\Pagebanners\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use TypiCMS\Modules\Core\Facades\TypiCMS;
 use TypiCMS\Modules\Core\Observers\SlugObserver;
-use Tonghe\Modules\Pagebanners\Composers\SidebarViewComposer;
-use Tonghe\Modules\Pagebanners\Facades\Pagebanners;
-use Tonghe\Modules\Pagebanners\Models\Pagebanner;
+use TypiCMS\Modules\Pagebanners\Composers\SidebarViewComposer;
+use TypiCMS\Modules\Pagebanners\Facades\Pagebanners;
+use TypiCMS\Modules\Pagebanners\Models\Pagebanner;
 
 class ModuleServiceProvider extends ServiceProvider
 {

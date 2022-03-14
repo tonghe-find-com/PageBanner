@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Pagebanners\Exports;
+namespace TypiCMS\Modules\Pagebanners\Exports;
 
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\ShouldAutoSize;
@@ -12,7 +12,7 @@ use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 use TypiCMS\Modules\Core\Filters\FilterOr;
-use Tonghe\Modules\Pagebanners\Models\Pagebanner;
+use TypiCMS\Modules\Pagebanners\Models\Pagebanner;
 
 class Export implements WithColumnFormatting, ShouldAutoSize, FromCollection, WithHeadings, WithMapping
 {

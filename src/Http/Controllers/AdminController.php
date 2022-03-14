@@ -1,15 +1,15 @@
 <?php
 
-namespace Tonghe\Modules\Pagebanners\Http\Controllers;
+namespace TypiCMS\Modules\Pagebanners\Http\Controllers;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Maatwebsite\Excel\Facades\Excel;
 use TypiCMS\Modules\Core\Http\Controllers\BaseAdminController;
-use Tonghe\Modules\Pagebanners\Exports\Export;
-use Tonghe\Modules\Pagebanners\Http\Requests\FormRequest;
-use Tonghe\Modules\Pagebanners\Models\Pagebanner;
+use TypiCMS\Modules\Pagebanners\Exports\Export;
+use TypiCMS\Modules\Pagebanners\Http\Requests\FormRequest;
+use TypiCMS\Modules\Pagebanners\Models\Pagebanner;
 
 class AdminController extends BaseAdminController
 {
